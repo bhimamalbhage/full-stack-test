@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title> Wpoets Web  </title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="index.css">
+
+</head>
+
+<body>
+
+	<div class="container">
+
+		<div class="text-center" style="margin-top: 60px">
+			  <h3> DelphianLogic in Action </h3>
+  			  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p>			
+
+		</div>
+
+		<div class="main row" style="margin-top: 60px">
+			<div class="col-md-4 sections">
+				<ul>
+					
+				<li data-target="#myCarousel" data-slide-to="0" class="active" >
+        <a href="#" id="title1">
+            <div class="card-header" id="headingOne" >
+                <h6 class="text-justify">
+                    <img src="images/DL-learning.svg" class="iconimg" >
+                     Learning
+                </h6>
+            </div>
+        </a>
+      </li>
+      
+      <li data-target="#myCarousel" data-slide-to="1" >
+        <a href="#" id="title2">  
+            <div class="card-header" id="headingTwo" >
+                <h6 class="text-justify">
+                    <img src="images/DL-learning.svg" class="iconimg" >
+                     Technology
+                </h6>
+            </div>
+        </a>
+      </li>  
+
+      <li data-target="#myCarousel" data-slide-to="2" >
+        <a href="#" id="title3">
+            <div class="card-header" id="headingThree" >
+                <h6 class="text-justify">
+                    <img src="images/DL-learning.svg" class="iconimg" >
+                     Communication
+                </h6>
+            </div>
+        </a>
+      </li>  	
+	  </ul>
+
+	  </div>
+
+			<div class="col-md-4 section2" >
+
+				<div id="myCarousel" class="carousel slide" data-ride="carousel"> 
+      <div class="carousel-inner">
+      
+        <div class="item active">
+              <div class="card-body">
+                <small class="title"> DIGITAL LEARNING INFRASTRUCTURE </small><br><br>
+                
+                <h4>
+                	Usability enhancement and Training for Transaction Portal for Customers
+                </h4>
+                <a href="#" >
+                    Learn More <img src="images/arrow-right.svg">
+                </a>
+              </div>
+        </div>
+ 
+        <div class="item">
+             <div class="card-body">
+                <small class="title"> DIGITAL LEARNING INFRASTRUCTURE </small><br><br>
+          
+                <h4>
+                	Usability enhancement and Training for Transaction Portal for Customers
+                </h4>
+                <a href="#" >
+                    Learn More <img src="images/arrow-right.svg">
+                </a>
+              </div>
+        </div>
+        
+        <div class="item">
+              <div class="card-body">
+                <small class="title"> DIGITAL LEARNING INFRASTRUCTURE </small><br><br>
+                
+                <h4>
+                	Usability enhancement and Training for Transaction Portal for Customers
+                </h4>
+                <a href="#">
+                    Learn More <img src="images/arrow-right.svg" >
+                </a>
+              </div>
+        </div>
+           
+      </div>
+    </div>
+
+			</div>
+			
+			<div class="col-md-4" style="padding: 0;">
+
+		    <img src="" id="slideImg">
+
+			</div>
+		
+		</div>
+	</div>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+    $('#slideImg').attr('src', 'images/learning.jpg');
+
+    $('#title1').click(function(){
+    $('#slideImg').attr('src', 'images/learning.jpg');
+    });
+
+    $('#title2').click(function(){
+    $('#slideImg').attr('src', 'images/technology.jpg');
+    });	
+
+    $('#title3').click(function(){
+    $('#slideImg').attr('src', 'images/communication.jpg');
+    });
+})
+
+</script>
+
+</body>
+</html>

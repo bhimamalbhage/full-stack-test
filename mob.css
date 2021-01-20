@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+      background:#11324d;  
+}
+
+    .card-header{
+        background:#ffffff;
+    }
+  
+    h3,h4,p{
+        color:#ffffff;
+        opacity:0.8;
+    }
+    i{
+        color:black;
+        float:right;
+    }
+
+.small{
+    background-color:grey;
+    color:white;
+    padding:3px;
+}
